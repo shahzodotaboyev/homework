@@ -208,6 +208,50 @@
                 cursor: pointer;
             }
         }
+
+        .section3 {
+            margin-top: 180px;
+            .management {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .management-text {
+                    width: 50%;
+                    color: var(--text-color);
+
+                    b {
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+
+                    h1 {
+                        font-size: 32px;
+                        font-weight: 700;
+                        margin: 15px 0 20px;
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        max-width: 486px;
+
+                    }
+
+                    div {
+                        margin-top: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                    }
+                }
+                img{
+                    width: 50%;
+                }
+            }
+        }
     }
 }
 

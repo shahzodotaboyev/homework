@@ -71,6 +71,20 @@
                     display: none;
                 }
             }
+            .section3 {
+                .management {
+                    .management-text{
+                        display: flex;
+                        flex-direction:column ;
+                        align-items: center;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    img {
+                        display: none;
+                    }
+                }
+            }
         }
     }
 
@@ -123,17 +137,21 @@
                     }
                 }
             }
-            .section2{
-                h1{
+
+            .section2 {
+                h1 {
                     font-size: 25px;
                 }
-                .products-cards{
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  gap: 20px;
+
+                .products-cards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
                 }
             }
+
+            
         }
     }
 
