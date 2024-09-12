@@ -130,6 +130,51 @@
 .contianer main .section1 img {
   width: 50%;
 }
+.contianer main .section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.contianer main .section2 h1 {
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 529px;
+  text-align: center;
+  color: var(--text-color);
+}
+.contianer main .section2 .products-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 66px 0 34px;
+}
+.contianer main .section2 .products-cards .product-card {
+  width: 240px;
+  height: 178px;
+}
+.contianer main .section2 .products-cards .product-card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.contianer main .section2 .products-cards .product-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--text-color);
+}
+.contianer main .section2 button {
+  width: 170px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  background-color: var(--text-color2);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 @media (max-width: 1300px) {
   .contianer header,
@@ -149,6 +194,11 @@
   }
   .contianer main .section1 .work p {
     font-size: 15px;
+  }
+  .contianer main .section2 .products-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
@@ -180,9 +230,23 @@
   .contianer header .header-links button {
     display: block;
   }
-  .contianer main .section1 .work .get-started-btns button, .contianer main .section1 .work .get-started-btns a {
+  .contianer main .section1 .work h1,
+  .contianer main .section1 .work p {
+    text-align: center;
+  }
+  .contianer main .section1 .work .get-started-btns button,
+  .contianer main .section1 .work .get-started-btns a {
     width: 130px;
     font-size: 13px;
     margin: 0;
+  }
+  .contianer main .section2 h1 {
+    font-size: 25px;
+  }
+  .contianer main .section2 .products-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

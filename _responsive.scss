@@ -34,6 +34,14 @@
                     }
                 }
             }
+
+            .section2 {
+                .products-cards {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    text-align: center;
+                }
+            }
         }
     }
 }
@@ -98,13 +106,32 @@
         main {
             .section1 {
                 .work {
+
+                    h1,
+                    p {
+                        text-align: center;
+                    }
+
                     .get-started-btns {
-                        button,a {
+
+                        button,
+                        a {
                             width: 130px;
                             font-size: 13px;
                             margin: 0;
                         }
                     }
+                }
+            }
+            .section2{
+                h1{
+                    font-size: 25px;
+                }
+                .products-cards{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 20px;
                 }
             }
         }
