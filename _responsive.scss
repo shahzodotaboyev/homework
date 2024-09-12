@@ -1,7 +1,56 @@
 @media (max-width:900px) {
     .contianer {
         header {
-            display: none;
+            .header-links {
+                .header-btn2 {
+                    display: none;
+                }
+            }
         }
     }
+}
+
+@media (max-width:768px) {
+    .contianer {
+        header {
+            .header-links {
+
+                button,
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:570px) {
+    .contianer {
+        header {
+            .logo {
+
+                img,
+                h1 {
+                    display: none;
+                }
+
+                i {
+                    display: block;
+                    font-size: 40px;
+                }
+            }
+
+            .header-links {
+                ul {
+                    display: none;
+                }
+
+                button {
+                    display: block;
+                }
+            }
+        }
+    }
+
 }
