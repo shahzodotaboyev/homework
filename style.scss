@@ -211,6 +211,10 @@
 
         .section3 {
             margin-top: 180px;
+            display: flex;
+            flex-direction: column;
+            gap: 150px;
+
             .management {
                 display: flex;
                 justify-content: space-between;
@@ -245,12 +249,26 @@
                         flex-direction: column;
                         gap: 15px;
 
+                        .custom-text {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            p{
+                                max-width: 365px;
+                            }
+
+                            img {
+                                width: 35px;
+                            }
+                        }
                     }
                 }
-                img{
+
+                img {
                     width: 50%;
                 }
             }
+
         }
     }
 }

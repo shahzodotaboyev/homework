@@ -177,6 +177,9 @@
 }
 .contianer main .section3 {
   margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
 }
 .contianer main .section3 .management {
   display: flex;
@@ -206,6 +209,17 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+.contianer main .section3 .management .management-text div .custom-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contianer main .section3 .management .management-text div .custom-text p {
+  max-width: 365px;
+}
+.contianer main .section3 .management .management-text div .custom-text img {
+  width: 35px;
 }
 .contianer main .section3 .management img {
   width: 50%;
