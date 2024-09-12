@@ -8,6 +8,7 @@
 
 :root {
   --text-color: #22343D;
+  --text-color2: #02897A;
 }
 
 .contianer {
@@ -23,6 +24,7 @@
   padding: 10px;
   position: sticky;
   top: 0;
+  padding: 0 100px;
 }
 .contianer header .logo {
   display: flex;
@@ -74,15 +76,92 @@
 .contianer header .header-links .header-btn2 a {
   color: #fff;
 }
+.contianer main {
+  padding: 0 100px;
+}
+.contianer main .section1 {
+  display: flex;
+  align-items: center;
+}
+.contianer main .section1 .work {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contianer main .section1 .work h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--text-color);
+  max-width: 500px;
+}
+.contianer main .section1 .work p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 458px;
+  margin: 18px 0 48px;
+}
+.contianer main .section1 .work .get-started-btns {
+  display: flex;
+  align-items: center;
+}
+.contianer main .section1 .work .get-started-btns button {
+  width: 175px;
+  height: 53px;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background: var(--text-color2);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.contianer main .section1 .work .get-started-btns a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  display: flex;
+  color: var(--text-color2);
+}
+.contianer main .section1 .work .get-started-btns i {
+  font-size: 30px;
+  color: var(--text-color2);
+}
+.contianer main .section1 img {
+  width: 50%;
+}
 
+@media (max-width: 1300px) {
+  .contianer header,
+  .contianer main {
+    padding: 0 10px;
+  }
+}
 @media (max-width: 900px) {
   .contianer header .header-links .header-btn2 {
     display: none;
+  }
+  .contianer main .section1 {
+    margin-top: 10px;
+  }
+  .contianer main .section1 .work h1 {
+    font-size: 30px;
+  }
+  .contianer main .section1 .work p {
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
   .contianer header .header-links button,
   .contianer header .header-links img {
+    display: none;
+  }
+  .contianer main .section1 .work {
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .contianer main .section1 img {
     display: none;
   }
 }
@@ -100,5 +179,10 @@
   }
   .contianer header .header-links button {
     display: block;
+  }
+  .contianer main .section1 .work .get-started-btns button, .contianer main .section1 .work .get-started-btns a {
+    width: 130px;
+    font-size: 13px;
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */

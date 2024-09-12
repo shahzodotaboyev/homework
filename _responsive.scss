@@ -1,9 +1,37 @@
+@media (max-width:1300px) {
+    .contianer {
+
+        header,
+        main {
+            padding: 0 10px;
+        }
+    }
+}
+
 @media (max-width:900px) {
     .contianer {
+
         header {
             .header-links {
                 .header-btn2 {
                     display: none;
+                }
+            }
+        }
+
+        main {
+            .section1 {
+                margin-top: 10px;
+
+                .work {
+                    h1 {
+                        font-size: 30px;
+
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -16,6 +44,21 @@
             .header-links {
 
                 button,
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        main {
+            .section1 {
+                .work {
+                    width: 100%;
+                    align-items: center;
+                    margin-top: 30px;
+
+                }
+
                 img {
                     display: none;
                 }
@@ -48,6 +91,20 @@
 
                 button {
                     display: block;
+                }
+            }
+        }
+
+        main {
+            .section1 {
+                .work {
+                    .get-started-btns {
+                        button,a {
+                            width: 130px;
+                            font-size: 13px;
+                            margin: 0;
+                        }
+                    }
                 }
             }
         }
